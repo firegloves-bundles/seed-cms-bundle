@@ -1,0 +1,27 @@
+code: seed-demo-cms
+description: A collection of content types and content templates from the seed back demo
+components:
+  contentTypes:
+    - contentTypes/bnr-descriptor.yaml
+    - contentTypes/mpc-descriptor.yaml
+    - contentTypes/prd-descriptor.yaml
+  contentModels:
+    - contentModels/main-banner-descriptor.yaml
+    - contentModels/banner-light-green-descriptor.yaml
+    - contentModels/banner-with-inner-card-descriptor.yaml
+    - contentModels/banner-with-accordion-descriptor.yaml
+    - contentModels/banner-dark-green-background-descriptor.yaml
+    - contentModels/banner-with-white-background-descriptor.yaml
+    - contentModels/credit-light-green-descriptor.yaml
+    - contentModels/credit-benefits-&-features-descriptor.yaml
+    - contentModels/interest-banner-landscape-descriptor.yaml
+    - contentModels/interest-simple-composite-banner-descriptor.yaml
+    - contentModels/interest-banner-white-descriptor.yaml
+    - contentModels/interest-banner-white-img-first-descriptor.yaml
+    - contentModels/interest-3-card-title-2nd-banner-descriptor.yaml
+    - contentModels/news-details-descriptor.yaml
+    - contentModels/products-3-columns-list-with-categories-descriptor.yaml
+    - contentModels/product-detail-descriptor.yaml
+    - contentModels/products-text-left-image-right-descriptor.yaml
+  categories:
+    - categories/categories-descriptor.yaml

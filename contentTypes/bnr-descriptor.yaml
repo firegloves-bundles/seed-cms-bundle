@@ -1,0 +1,498 @@
+code: BNR
+name: Banners
+status: '0'
+attributes:
+  - code: title
+    type: Text
+    name: Titolo
+    names:
+      en: title
+    roles: []
+    disablingCodes: []
+    mandatory: true
+    listFilter: false
+    indexable: true
+    enumeratorStaticItems: null
+    enumeratorStaticItemsSeparator: null
+    enumeratorExtractorBean: null
+    validationRules:
+      minLength: null
+      maxLength: null
+      regex: null
+      rangeStartString: null
+      rangeEndString: null
+      rangeStartStringAttribute: null
+      rangeEndStringAttribute: null
+      equalString: null
+      equalStringAttribute: null
+      rangeStartDate: null
+      rangeEndDate: null
+      rangeStartDateAttribute: null
+      rangeEndDateAttribute: null
+      equalDate: null
+      equalDateAttribute: null
+      rangeStartNumber: null
+      rangeStartNumberAttribute: null
+      rangeEndNumber: null
+      rangeEndNumberAttribute: null
+      equalNumber: null
+      equalNumberAttribute: null
+      ognlValidation: null
+    nestedAttribute: null
+    compositeAttributes: null
+  - code: subtitle
+    type: Hypertext
+    name: Sottotitolo
+    names:
+      en: subtitle
+    roles: []
+    disablingCodes: []
+    mandatory: true
+    listFilter: false
+    indexable: false
+    enumeratorStaticItems: null
+    enumeratorStaticItemsSeparator: null
+    enumeratorExtractorBean: null
+    validationRules:
+      minLength: null
+      maxLength: null
+      regex: null
+      rangeStartString: null
+      rangeEndString: null
+      rangeStartStringAttribute: null
+      rangeEndStringAttribute: null
+      equalString: null
+      equalStringAttribute: null
+      rangeStartDate: null
+      rangeEndDate: null
+      rangeStartDateAttribute: null
+      rangeEndDateAttribute: null
+      equalDate: null
+      equalDateAttribute: null
+      rangeStartNumber: null
+      rangeStartNumberAttribute: null
+      rangeEndNumber: null
+      rangeEndNumberAttribute: null
+      equalNumber: null
+      equalNumberAttribute: null
+      ognlValidation: null
+    nestedAttribute: null
+    compositeAttributes: null
+  - code: descr
+    type: Hypertext
+    name: Description
+    names:
+      en: descr
+    roles: []
+    disablingCodes: []
+    mandatory: false
+    listFilter: false
+    indexable: false
+    enumeratorStaticItems: null
+    enumeratorStaticItemsSeparator: null
+    enumeratorExtractorBean: null
+    validationRules:
+      minLength: null
+      maxLength: null
+      regex: null
+      rangeStartString: null
+      rangeEndString: null
+      rangeStartStringAttribute: null
+      rangeEndStringAttribute: null
+      equalString: null
+      equalStringAttribute: null
+      rangeStartDate: null
+      rangeEndDate: null
+      rangeStartDateAttribute: null
+      rangeEndDateAttribute: null
+      equalDate: null
+      equalDateAttribute: null
+      rangeStartNumber: null
+      rangeStartNumberAttribute: null
+      rangeEndNumber: null
+      rangeEndNumberAttribute: null
+      equalNumber: null
+      equalNumberAttribute: null
+      ognlValidation: null
+    nestedAttribute: null
+    compositeAttributes: null
+  - code: img
+    type: Image
+    name: Lateral Image
+    names:
+      en: img
+    roles: []
+    disablingCodes: []
+    mandatory: false
+    listFilter: false
+    indexable: false
+    enumeratorStaticItems: null
+    enumeratorStaticItemsSeparator: null
+    enumeratorExtractorBean: null
+    validationRules:
+      minLength: null
+      maxLength: null
+      regex: null
+      rangeStartString: null
+      rangeEndString: null
+      rangeStartStringAttribute: null
+      rangeEndStringAttribute: null
+      equalString: null
+      equalStringAttribute: null
+      rangeStartDate: null
+      rangeEndDate: null
+      rangeStartDateAttribute: null
+      rangeEndDateAttribute: null
+      equalDate: null
+      equalDateAttribute: null
+      rangeStartNumber: null
+      rangeStartNumberAttribute: null
+      rangeEndNumber: null
+      rangeEndNumberAttribute: null
+      equalNumber: null
+      equalNumberAttribute: null
+      ognlValidation: null
+    nestedAttribute: null
+    compositeAttributes: null
+  - code: link
+    type: Link
+    name: CTA Link
+    names:
+      en: link
+    roles: []
+    disablingCodes: []
+    mandatory: false
+    listFilter: false
+    indexable: false
+    enumeratorStaticItems: null
+    enumeratorStaticItemsSeparator: null
+    enumeratorExtractorBean: null
+    validationRules:
+      minLength: null
+      maxLength: null
+      regex: null
+      rangeStartString: null
+      rangeEndString: null
+      rangeStartStringAttribute: null
+      rangeEndStringAttribute: null
+      equalString: null
+      equalStringAttribute: null
+      rangeStartDate: null
+      rangeEndDate: null
+      rangeStartDateAttribute: null
+      rangeEndDateAttribute: null
+      equalDate: null
+      equalDateAttribute: null
+      rangeStartNumber: null
+      rangeStartNumberAttribute: null
+      rangeEndNumber: null
+      rangeEndNumberAttribute: null
+      equalNumber: null
+      equalNumberAttribute: null
+      ognlValidation: null
+    nestedAttribute: null
+    compositeAttributes: null
+  - code: accord
+    type: Monolist
+    name: Accordion or Card list
+    names:
+      en: accord
+    roles: []
+    disablingCodes: []
+    mandatory: false
+    listFilter: false
+    indexable: false
+    enumeratorStaticItems: null
+    enumeratorStaticItemsSeparator: null
+    enumeratorExtractorBean: null
+    validationRules:
+      minLength: null
+      maxLength: null
+      regex: null
+      rangeStartString: null
+      rangeEndString: null
+      rangeStartStringAttribute: null
+      rangeEndStringAttribute: null
+      equalString: null
+      equalStringAttribute: null
+      rangeStartDate: null
+      rangeEndDate: null
+      rangeStartDateAttribute: null
+      rangeEndDateAttribute: null
+      equalDate: null
+      equalDateAttribute: null
+      rangeStartNumber: null
+      rangeStartNumberAttribute: null
+      rangeEndNumber: null
+      rangeEndNumberAttribute: null
+      equalNumber: null
+      equalNumberAttribute: null
+      ognlValidation: null
+    nestedAttribute:
+      code: accord
+      type: Composite
+      name: null
+      names:
+        en: accord
+      roles: []
+      disablingCodes: []
+      mandatory: false
+      listFilter: false
+      indexable: false
+      enumeratorStaticItems: null
+      enumeratorStaticItemsSeparator: null
+      enumeratorExtractorBean: null
+      validationRules:
+        minLength: null
+        maxLength: null
+        regex: null
+        rangeStartString: null
+        rangeEndString: null
+        rangeStartStringAttribute: null
+        rangeEndStringAttribute: null
+        equalString: null
+        equalStringAttribute: null
+        rangeStartDate: null
+        rangeEndDate: null
+        rangeStartDateAttribute: null
+        rangeEndDateAttribute: null
+        equalDate: null
+        equalDateAttribute: null
+        rangeStartNumber: null
+        rangeStartNumberAttribute: null
+        rangeEndNumber: null
+        rangeEndNumberAttribute: null
+        equalNumber: null
+        equalNumberAttribute: null
+        ognlValidation: null
+      nestedAttribute: null
+      compositeAttributes:
+        - code: idcard
+          type: Number
+          name: Card number
+          names:
+            en: idcard
+          roles: []
+          disablingCodes: []
+          mandatory: true
+          listFilter: false
+          indexable: false
+          enumeratorStaticItems: null
+          enumeratorStaticItemsSeparator: null
+          enumeratorExtractorBean: null
+          validationRules:
+            minLength: null
+            maxLength: null
+            regex: null
+            rangeStartString: null
+            rangeEndString: null
+            rangeStartStringAttribute: null
+            rangeEndStringAttribute: null
+            equalString: null
+            equalStringAttribute: null
+            rangeStartDate: null
+            rangeEndDate: null
+            rangeStartDateAttribute: null
+            rangeEndDateAttribute: null
+            equalDate: null
+            equalDateAttribute: null
+            rangeStartNumber: null
+            rangeStartNumberAttribute: null
+            rangeEndNumber: null
+            rangeEndNumberAttribute: null
+            equalNumber: null
+            equalNumberAttribute: null
+            ognlValidation: null
+          nestedAttribute: null
+          compositeAttributes: null
+        - code: headtitle
+          type: Text
+          name: Header title
+          names:
+            en: headtitle
+          roles: []
+          disablingCodes: []
+          mandatory: true
+          listFilter: false
+          indexable: false
+          enumeratorStaticItems: null
+          enumeratorStaticItemsSeparator: null
+          enumeratorExtractorBean: null
+          validationRules:
+            minLength: null
+            maxLength: null
+            regex: null
+            rangeStartString: null
+            rangeEndString: null
+            rangeStartStringAttribute: null
+            rangeEndStringAttribute: null
+            equalString: null
+            equalStringAttribute: null
+            rangeStartDate: null
+            rangeEndDate: null
+            rangeStartDateAttribute: null
+            rangeEndDateAttribute: null
+            equalDate: null
+            equalDateAttribute: null
+            rangeStartNumber: null
+            rangeStartNumberAttribute: null
+            rangeEndNumber: null
+            rangeEndNumberAttribute: null
+            equalNumber: null
+            equalNumberAttribute: null
+            ognlValidation: null
+          nestedAttribute: null
+          compositeAttributes: null
+        - code: atitle
+          type: Text
+          name: Accordion item title
+          names:
+            en: atitle
+          roles: []
+          disablingCodes: []
+          mandatory: true
+          listFilter: false
+          indexable: false
+          enumeratorStaticItems: null
+          enumeratorStaticItemsSeparator: null
+          enumeratorExtractorBean: null
+          validationRules:
+            minLength: null
+            maxLength: null
+            regex: null
+            rangeStartString: null
+            rangeEndString: null
+            rangeStartStringAttribute: null
+            rangeEndStringAttribute: null
+            equalString: null
+            equalStringAttribute: null
+            rangeStartDate: null
+            rangeEndDate: null
+            rangeStartDateAttribute: null
+            rangeEndDateAttribute: null
+            equalDate: null
+            equalDateAttribute: null
+            rangeStartNumber: null
+            rangeStartNumberAttribute: null
+            rangeEndNumber: null
+            rangeEndNumberAttribute: null
+            equalNumber: null
+            equalNumberAttribute: null
+            ognlValidation: null
+          nestedAttribute: null
+          compositeAttributes: null
+        - code: asubtitle
+          type: Hypertext
+          name: Accordion item description
+          names:
+            en: asubtitle
+          roles: []
+          disablingCodes: []
+          mandatory: false
+          listFilter: false
+          indexable: false
+          enumeratorStaticItems: null
+          enumeratorStaticItemsSeparator: null
+          enumeratorExtractorBean: null
+          validationRules:
+            minLength: null
+            maxLength: null
+            regex: null
+            rangeStartString: null
+            rangeEndString: null
+            rangeStartStringAttribute: null
+            rangeEndStringAttribute: null
+            equalString: null
+            equalStringAttribute: null
+            rangeStartDate: null
+            rangeEndDate: null
+            rangeStartDateAttribute: null
+            rangeEndDateAttribute: null
+            equalDate: null
+            equalDateAttribute: null
+            rangeStartNumber: null
+            rangeStartNumberAttribute: null
+            rangeEndNumber: null
+            rangeEndNumberAttribute: null
+            equalNumber: null
+            equalNumberAttribute: null
+            ognlValidation: null
+          nestedAttribute: null
+          compositeAttributes: null
+        - code: aimg
+          type: Image
+          name: Logo on card
+          names:
+            en: aimg
+          roles: []
+          disablingCodes: []
+          mandatory: false
+          listFilter: false
+          indexable: false
+          enumeratorStaticItems: null
+          enumeratorStaticItemsSeparator: null
+          enumeratorExtractorBean: null
+          validationRules:
+            minLength: null
+            maxLength: null
+            regex: null
+            rangeStartString: null
+            rangeEndString: null
+            rangeStartStringAttribute: null
+            rangeEndStringAttribute: null
+            equalString: null
+            equalStringAttribute: null
+            rangeStartDate: null
+            rangeEndDate: null
+            rangeStartDateAttribute: null
+            rangeEndDateAttribute: null
+            equalDate: null
+            equalDateAttribute: null
+            rangeStartNumber: null
+            rangeStartNumberAttribute: null
+            rangeEndNumber: null
+            rangeEndNumberAttribute: null
+            equalNumber: null
+            equalNumberAttribute: null
+            ognlValidation: null
+          nestedAttribute: null
+          compositeAttributes: null
+        - code: open
+          type: Enumerator
+          name: Open accordion
+          names:
+            en: open
+          roles: []
+          disablingCodes: []
+          mandatory: false
+          listFilter: false
+          indexable: false
+          enumeratorStaticItems: 'false,true'
+          enumeratorStaticItemsSeparator: ','
+          enumeratorExtractorBean: null
+          validationRules:
+            minLength: null
+            maxLength: null
+            regex: null
+            rangeStartString: null
+            rangeEndString: null
+            rangeStartStringAttribute: null
+            rangeEndStringAttribute: null
+            equalString: null
+            equalStringAttribute: null
+            rangeStartDate: null
+            rangeEndDate: null
+            rangeStartDateAttribute: null
+            rangeEndDateAttribute: null
+            equalDate: null
+            equalDateAttribute: null
+            rangeStartNumber: null
+            rangeStartNumberAttribute: null
+            rangeEndNumber: null
+            rangeEndNumberAttribute: null
+            equalNumber: null
+            equalNumberAttribute: null
+            ognlValidation: null
+          nestedAttribute: null
+          compositeAttributes: null
+    compositeAttributes: null
