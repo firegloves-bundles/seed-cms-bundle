@@ -2,7 +2,7 @@ code: seed-demo-cms
 description: A collection of content types and content templates from the seed back demo
 components:
   contentTypes:
-    - contentTypes/bnr-descriptor.yaml
+#    - contentTypes/bnr-descriptor.yaml
     - contentTypes/mpc-descriptor.yaml
     - contentTypes/prd-descriptor.yaml
   contentModels:
