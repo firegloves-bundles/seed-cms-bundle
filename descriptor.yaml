@@ -2,7 +2,6 @@ code: seed-demo-cms
 description: A collection of content types and content templates from the seed back demo
 components:
   contentTypes:
-#    - contentTypes/bnr-descriptor.yaml
     - contentTypes/mpc-descriptor.yaml
     - contentTypes/prd-descriptor.yaml
   contentModels:
@@ -23,5 +22,14 @@ components:
     - contentModels/products-3-columns-list-with-categories-descriptor.yaml
     - contentModels/product-detail-descriptor.yaml
     - contentModels/products-text-left-image-right-descriptor.yaml
+  contents:
+    - contents/mpc584-descriptor.yaml
+    - contents/mpc587-descriptor.yaml
+    - contents/mpc590-descriptor.yaml
+    - contents/mpc593-descriptor.yaml
+    - contents/prd653-descriptor.yaml
+    - contents/prd656-descriptor.yaml
+    - contents/prd659-descriptor.yaml
+    - contents/prd662-descriptor.yaml
   categories:
     - categories/categories-descriptor.yaml
