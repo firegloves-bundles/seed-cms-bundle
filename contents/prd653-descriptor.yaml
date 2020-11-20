@@ -51,15 +51,15 @@ attributes:
         listelements: {}
     compositeelements: []
     listelements: {}
-  - code: image
-    value: null
-    values:
-      en:
-        correlationCode: '654'
-        name: Card_1_Picture_Green_1_d0 (1).png
-    elements: []
-    compositeelements: []
-    listelements: {}
+#  - code: image
+#    value: null
+#    values:
+#      en:
+#        correlationCode: '654'
+#        name: Card_1_Picture_Green_1_d0 (1).png
+#    elements: []
+#    compositeelements: []
+#    listelements: {}
   - code: links
     value: null
     values: {}

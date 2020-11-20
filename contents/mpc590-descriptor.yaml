@@ -28,15 +28,15 @@ attributes:
     elements: []
     compositeelements: []
     listelements: {}
-  - code: image
-    value: null
-    values:
-      en:
-        correlationCode: '591'
-        name: Live Chat
-    elements: []
-    compositeelements: []
-    listelements: {}
+#  - code: image
+#    value: null
+#    values:
+#      en:
+#        correlationCode: '591'
+#        name: Live Chat
+#    elements: []
+#    compositeelements: []
+#    listelements: {}
   - code: links
     value: null
     values: {}

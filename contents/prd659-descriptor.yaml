@@ -51,15 +51,15 @@ attributes:
         listelements: {}
     compositeelements: []
     listelements: {}
-  - code: image
-    value: null
-    values:
-      en:
-        correlationCode: '660'
-        name: Seed Life Family
-    elements: []
-    compositeelements: []
-    listelements: {}
+#  - code: image
+#    value: null
+#    values:
+#      en:
+#        correlationCode: '660'
+#        name: Seed Life Family
+#    elements: []
+#    compositeelements: []
+#    listelements: {}
   - code: links
     value: null
     values: {}

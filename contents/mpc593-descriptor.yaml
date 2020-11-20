@@ -26,15 +26,15 @@ attributes:
     elements: []
     compositeelements: []
     listelements: {}
-  - code: image
-    value: null
-    values:
-      en:
-        correlationCode: '594'
-        name: Flexible Cover Icon
-    elements: []
-    compositeelements: []
-    listelements: {}
+#  - code: image
+#    value: null
+#    values:
+#      en:
+#        correlationCode: '594'
+#        name: Flexible Cover Icon
+#    elements: []
+#    compositeelements: []
+#    listelements: {}
   - code: links
     value: null
     values: {}

@@ -65,14 +65,14 @@ attributes:
             elements: []
             compositeelements: []
             listelements: {}
-          - code: mimage
-            value: null
-            values:
-              en:
-                correlationCode: '663'
-            elements: []
-            compositeelements: []
-            listelements: {}
+#          - code: mimage
+#            value: null
+#            values:
+#              en:
+#                correlationCode: '663'
+#            elements: []
+#            compositeelements: []
+#            listelements: {}
           - code: mtitle
             value: null
             values:
@@ -83,15 +83,15 @@ attributes:
         listelements: {}
     compositeelements: []
     listelements: {}
-  - code: image
-    value: null
-    values:
-      en:
-        correlationCode: '664'
-        name: Travel_Insurance_Image_d0.png
-    elements: []
-    compositeelements: []
-    listelements: {}
+#  - code: image
+#    value: null
+#    values:
+#      en:
+#        correlationCode: '664'
+#        name: Travel_Insurance_Image_d0.png
+#    elements: []
+#    compositeelements: []
+#    listelements: {}
   - code: links
     value: null
     values: {}
@@ -114,15 +114,15 @@ attributes:
   - code: attaches
     value: null
     values: {}
-    elements:
-      - code: attaches
-        value: null
-        values:
-          en:
-            correlationCode: '205'
-            name: Download
-        elements: []
-        compositeelements: []
-        listelements: {}
+    elements: []
+#      - code: attaches
+#        value: null
+#        values:
+#          en:
+#            correlationCode: '205'
+#            name: Download
+#        elements: []
+#        compositeelements: []
+#        listelements: {}
     compositeelements: []
     listelements: {}
