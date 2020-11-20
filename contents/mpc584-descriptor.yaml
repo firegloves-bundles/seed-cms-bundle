@@ -9,16 +9,14 @@ attributes:
   - code: title
     value: null
     values:
-      en: |
-        <p>24 Hours Support</p>
+      en: <p>24 Hours Support</p>
     elements: []
     compositeelements: []
     listelements: {}
   - code: subtitle
     value: null
     values:
-      en: |
-        <p>Customer service is available 24 hours a day, 7 days a week.<br />
+      en: <p>Customer service is available 24 hours a day, 7 days a week.<br />
         Phone calls may be monitored or recorded for quality assurance purposes.</p>
     elements: []
     compositeelements: []
