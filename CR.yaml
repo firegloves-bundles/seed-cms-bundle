@@ -1,0 +1,26 @@
+apiVersion: entando.org/v1
+kind: EntandoDeBundle
+metadata:
+  name: seed-cms-bundle
+  labels:
+    plugin: 'true'
+    widget: 'true'
+spec:
+  details:
+    name: seed-cms-bundle
+    description: This is the standard seeds demo bundle
+    dist-tags:
+      latest: v1.1.0
+    versions:
+      - v1.0.0
+      - v1.1.0
+  tags:
+    - version: v1.0.0
+      shasum: e986aa2c426987b979ab68a4de71e5ac587d735f
+      integrity: e986aa2c426987b979ab68a4de71e5ac587d735f
+      tarball: 'https://github.com/firegloves-bundles/seed-cms-bundle.git'
+    - version: v1.1.0
+      shasum: e986aa2c426987b979ab68a4de71e5ac587d735f
+      integrity: e986aa2c426987b979ab68a4de71e5ac587d735f
+      tarball: 'https://github.com/firegloves-bundles/seed-cms-bundle.git'
+      description: 'contents added'
